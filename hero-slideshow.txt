@@ -2,7 +2,7 @@
   src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
   crossorigin="anonymous"></script><script src="https://player.vimeo.com/api/player.js"></script>
-<div class="title-overlay"><svg data-name="Layer 1" id="Layer_1" style="width: 4rem" viewbox="0 0 13.5 15.58" xmlns="http://www.w3.org/2000/svg"><defs>
+<div class="title-overlay"><svg data-name="Layer 1" id="Layer_1" viewbox="0 0 13.5 15.58" xmlns="http://www.w3.org/2000/svg"><defs>
 <style type="text/css">.cls-1{fill:#fff;}
 </style>
 </defs><path class="cls-1" d="M215.5,380.67V365.08l13.5,7.8Zm1.5-13v10.39l9-5.19Z" transform="translate(-215.5 -365.08)"></path></svg>

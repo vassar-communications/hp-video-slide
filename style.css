@@ -18,15 +18,19 @@
   display: flex;
   flex-flow: column;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
   gap: 1rem;
 }
 #media-id--25496 + .carousel-caption .title-overlay svg {
-  width: 50%;
+  margin-bottom: 2vw;
+  max-width: 4rem;
+  width: 4vw;
+  opacity: 0.5;
 }
 #media-id--25496 + .carousel-caption .title-overlay p {
   display: flex;
   gap: 1.8em;
+  height: 0;
 }
 #media-id--25496 + .carousel-caption .field--name-field-hero-slide-body {
   position: relative;

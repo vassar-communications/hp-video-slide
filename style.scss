@@ -20,17 +20,22 @@
       display: flex;
       flex-flow: column;
       align-items: center;
-      justify-content: center;
+      justify-content: end;
 //      background: rgba(0, 0, 0, 0.6);
       gap: 1rem;
 
           svg {
-      width: 50%;
+//      width: 50%;
+      margin-bottom: 2vw;
+      max-width: 4rem;
+      width: 4vw;
+      opacity: 0.5;
     }
 
       p {
         display: flex;
         gap: 1.8em;
+        height: 0;
       }
     }
     .field--name-field-hero-slide-body {
@@ -121,7 +126,7 @@ body#top {
 }
 
 @media (max-aspect-ratio: 1/1) {
-	.embed-responsive.embed-responsive-16by9.ratio.ratio-16x9 {	
+	.embed-responsive.embed-responsive-16by9.ratio.ratio-16x9 {
 	    height: -webkit-fill-available;
 	}
 }
@@ -161,4 +166,3 @@ body#top {
 .modal-open .modal {
     overflow-y: hidden;
 }
-
