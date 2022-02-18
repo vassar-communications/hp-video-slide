@@ -1,0 +1,164 @@
+#media-id--25496 {
+  //#hero-slideshow-16801 {
+  & + .carousel-caption {
+    position: absolute;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    padding: 0 !important;
+    background-color: transparent;
+
+
+    .inner {
+      padding: 0 !important;
+    }
+    .title-overlay {
+      position: absolute;
+      z-index: 10;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      justify-content: center;
+//      background: rgba(0, 0, 0, 0.6);
+      gap: 1rem;
+
+          svg {
+      width: 50%;
+    }
+
+      p {
+        display: flex;
+        gap: 1.8em;
+      }
+    }
+    .field--name-field-hero-slide-body {
+      position: relative;
+    }
+
+    /* "Watch Video" button */
+
+    a.btn-rounded {
+      text-decoration: none !important;
+      border: none !important;
+      background: rgba(255, 255, 255, 0.8);
+      color: #333 !important;
+      padding: 0.4rem 1rem;
+      border-radius: 3rem;
+      font-size: 1rem;
+      font-weight: bold !important;
+      font-variation-settings: "wght" 600;
+      text-transform: uppercase;
+      margin-top: 3rem;
+    }
+  }
+}
+
+/* hides Drupal UI */
+
+nav#toolbar-bar {
+  opacity: 0;
+  position: absolute;
+}
+nav#toolbar-bar:hover {
+  opacity: 1;
+}
+nav.tabs {
+  opacity: 0;
+  position: absolute;
+  z-index: 100;
+}
+nav.tabs:hover {
+  opacity: 1;
+}
+a.nav-link.nav-link--user-logout {
+  display: none;
+}
+
+article.entity--type-node.node--landing-page--full.node--landing-page--default.node--landing-page--default--full.node.node--type-landing-page.node--unpublished.node--view-mode-full.clearfix {
+  padding: 0;
+}
+
+body#top {
+  padding-top: 0 !important;
+}
+
+.iframe-loaded #media-id--24961 + .carousel-caption .title-overlay span {
+  opacity: 1;
+  filter: blur(0px);
+}
+
+.iframe-loaded #media-id--24961 + .carousel-caption path {
+  opacity: 1;
+  //  filter: blur(0px);
+}
+
+
+.modal {
+    position: fixed !important;
+    z-index: 2000 !important;
+}
+
+
+/*  Modal override styling */
+
+.modal-backdrop {
+    opacity: 1 !important;
+}
+
+#exampleModal .modal-header {
+	border: none;
+    padding: 0;
+}
+
+#exampleModal iframe {
+//  object-fit: contain;
+}
+
+.embed-responsive.embed-responsive-16by9.ratio.ratio-16x9 {
+    height: 100vh;
+}
+
+@media (max-aspect-ratio: 1/1) {
+	.embed-responsive.embed-responsive-16by9.ratio.ratio-16x9 {	
+	    height: -webkit-fill-available;
+	}
+}
+
+.modal-content {
+    background: transparent;
+}
+
+#exampleModal button.close {
+    position: fixed;
+    top: 1rem;
+    right: 2rem;
+    z-index: 1000;
+}
+
+#exampleModal .modal-header span {
+    color: #fff;
+    opacity: 1 !IMPORTANT;
+    font-size: 4rem;
+    font-weight: normal;
+}
+
+#exampleModal .modal-body {
+    padding: 0.2rem;
+}
+
+#exampleModal .embed-responsive {
+    margin: 0;
+}
+
+#exampleModal .modal-xxl {
+  max-width: none;
+  margin: 0;
+}
+
+
+.modal-open .modal {
+    overflow-y: hidden;
+}
+

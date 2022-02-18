@@ -1,0 +1,23 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script><!-- Modal -->
+<div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="exampleModal" tabindex="-1">
+<div class="modal-dialog modal-xxl modal-dialog-centered">
+<div class="modal-content">
+<div class="modal-header"><button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span></button></div>
+
+<div class="modal-body">
+<div class="embed-responsive embed-responsive-16by9 ratio ratio-16x9"><iframe allow="autoplay" allowfullscreen="" frameborder="0" height="360" id="anthem-video" src="https://player.vimeo.com/video/675479542?h=3f69ff4c7f?autoplay=1" title="vimeo-player" width="640"></iframe></div>
+</div>
+</div>
+</div>
+</div>
+<!-- end modal --><script>
+    $('#exampleModal').on('show.bs.modal', function (e) {
+console.log("play");
+console.log(window.playerHook.play());
+window.playerHook.play();
+})
+$('#exampleModal').on('hide.bs.modal', function (e) {
+console.log("pause");
+    window.playerHook.pause();
+})
+</script>
