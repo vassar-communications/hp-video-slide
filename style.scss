@@ -1,4 +1,4 @@
-#media-id--25721 {
+#media-id--25756 {
   //#hero-slideshow-16801 {
   & + .carousel-caption {
     position: absolute;
@@ -21,6 +21,7 @@
       flex-flow: column;
       align-items: center;
       justify-content: end;
+      -webkit-justify-content: flex-end;
 //      background: rgba(0, 0, 0, 0.6);
       gap: 1rem;
 
@@ -60,7 +61,7 @@
   }
 }
 
-/* hides Drupal UI */
+/* hides Drupal UI
 
 nav#toolbar-bar {
   opacity: 0;
@@ -80,6 +81,7 @@ nav.tabs:hover {
 a.nav-link.nav-link--user-logout {
   display: none;
 }
+*/
 
 article.entity--type-node.node--landing-page--full.node--landing-page--default.node--landing-page--default--full.node.node--type-landing-page.node--unpublished.node--view-mode-full.clearfix {
   padding: 0;

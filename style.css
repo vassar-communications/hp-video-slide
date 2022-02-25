@@ -1,4 +1,4 @@
-#media-id--25721 + .carousel-caption {
+#media-id--25756 + .carousel-caption {
   position: absolute;
   left: 0 !important;
   top: 0 !important;
@@ -7,10 +7,10 @@
   background-color: transparent;
   /* "Watch Video" button */
 }
-#media-id--25721 + .carousel-caption .inner {
+#media-id--25756 + .carousel-caption .inner {
   padding: 0 !important;
 }
-#media-id--25721 + .carousel-caption .title-overlay {
+#media-id--25756 + .carousel-caption .title-overlay {
   position: absolute;
   z-index: 10;
   width: 100%;
@@ -19,23 +19,24 @@
   flex-flow: column;
   align-items: center;
   justify-content: end;
+  -webkit-justify-content: flex-end;
   gap: 1rem;
 }
-#media-id--25721 + .carousel-caption .title-overlay svg {
+#media-id--25756 + .carousel-caption .title-overlay svg {
   margin-bottom: 4vw;
   max-width: 4rem;
   width: 4vw;
   opacity: 0.5;
 }
-#media-id--25721 + .carousel-caption .title-overlay p {
+#media-id--25756 + .carousel-caption .title-overlay p {
   display: flex;
   gap: 1.8em;
   height: 0;
 }
-#media-id--25721 + .carousel-caption .field--name-field-hero-slide-body {
+#media-id--25756 + .carousel-caption .field--name-field-hero-slide-body {
   position: relative;
 }
-#media-id--25721 + .carousel-caption a.btn-rounded {
+#media-id--25756 + .carousel-caption a.btn-rounded {
   text-decoration: none !important;
   border: none !important;
   background: rgba(255, 255, 255, 0.8);
@@ -49,30 +50,27 @@
   margin-top: 3rem;
 }
 
-/* hides Drupal UI */
+/* hides Drupal UI
+
 nav#toolbar-bar {
   opacity: 0;
   position: absolute;
 }
-
 nav#toolbar-bar:hover {
   opacity: 1;
 }
-
 nav.tabs {
   opacity: 0;
   position: absolute;
   z-index: 100;
 }
-
 nav.tabs:hover {
   opacity: 1;
 }
-
 a.nav-link.nav-link--user-logout {
   display: none;
 }
-
+*/
 article.entity--type-node.node--landing-page--full.node--landing-page--default.node--landing-page--default--full.node.node--type-landing-page.node--unpublished.node--view-mode-full.clearfix {
   padding: 0;
 }
