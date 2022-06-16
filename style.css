@@ -1,3 +1,11 @@
+.carousel-item.active {
+  overflow: hidden !important;
+}
+
+#media-id--25756 + .carousel-caption {
+  top: 0 !important;
+}
+
 #media-id--25756 + .carousel-caption {
   position: absolute;
   left: 0 !important;
@@ -70,13 +78,15 @@ nav.tabs:hover {
 a.nav-link.nav-link--user-logout {
   display: none;
 }
-*/
-article.entity--type-node.node--landing-page--full.node--landing-page--default.node--landing-page--default--full.node.node--type-landing-page.node--unpublished.node--view-mode-full.clearfix {
-  padding: 0;
-}
 
 body#top {
   padding-top: 0 !important;
+}
+
+
+*/
+article.entity--type-node.node--landing-page--full.node--landing-page--default.node--landing-page--default--full.node.node--type-landing-page.node--unpublished.node--view-mode-full.clearfix {
+  padding: 0;
 }
 
 .iframe-loaded #media-id--24961 + .carousel-caption .title-overlay span {
@@ -121,6 +131,8 @@ body#top {
   top: 1rem;
   right: 2rem;
   z-index: 1000;
+  background: transparent;
+  border: none;
 }
 
 #exampleModal .modal-header span {
